@@ -1020,7 +1020,7 @@
 							url: editor.config.filebrowserImageBrowseLinkUrl
 						},
 						style: 'float:right',
-						hidden: true,
+						hidden: false,
 						label: editor.lang.common.browseServer
 					},
 					{
@@ -1050,7 +1050,7 @@
 				},
 				{
 					id: 'Upload',
-					hidden: true,
+					hidden: false,
 					filebrowser: 'uploadButton',
 					label: editor.lang.image.upload,
 					elements: [ {
