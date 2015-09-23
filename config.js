@@ -67,6 +67,8 @@ CKEDITOR.editorConfig = function( config ) {
 		'undo,' +
 		'wysiwygarea';
 	// %REMOVE_END%
+
+	// set the route of image upload route here
 	config.filebrowserUploadUrl = '/ckeditor/upload';
 };
 
